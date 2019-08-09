@@ -53,6 +53,9 @@ import BlockFestHome from "views/examples/BlockFestHome.jsx";
 import BlockFestSponsors from "views/examples/BlockFestSponsors.jsx";
 import BlockFestAboutUs from "views/examples/BlockFestAboutUs.jsx";
 import BlockFestFAQPage from "views/examples/BlockFestFAQPage.jsx";
+import BlockFestPartnersPage from "views/examples/BlockFestPartnersPage.jsx";
+import BlockFestContactUs from "views/examples/BlockFestContactUs.jsx";
+
 
 
 
@@ -68,11 +71,12 @@ ReactDOM.render(
       <Route path="/about-us" render={props => <AboutUs {...props} />} />
       <Route path="/about" render={props => <BlockFestAboutUs {...props} />} />
       <Route path="/faq" render={props => <BlockFestFAQPage {...props} />} />
+      <Route path="/partners" render={props => <BlockFestPartnersPage {...props} />} />
 
 
       <Route path="/blog-post" render={props => <BlogPost {...props} />} />
       <Route path="/blog-posts" render={props => <BlogPosts {...props} />} />
-      <Route path="/contact-us" render={props => <ContactUs {...props} />} />
+      <Route path="/contact-us" render={props => <BlockFestContactUs {...props} />} />
       <Route
         path="/landing-page"
         render={props => <LandingPage {...props} />}

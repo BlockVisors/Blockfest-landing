@@ -17,6 +17,7 @@
 import React from "react";
 // react plugin used to create charts
 import { Line } from "react-chartjs-2";
+import classnames from "classnames";
 
 // reactstrap components
 import {
@@ -30,7 +31,12 @@ import {
   ListGroup,
   Container,
   Row,
-  Col
+  Col,
+  Form,
+  Input,
+  InputGroupAddon,
+  InputGroupText,
+  InputGroup
 } from "reactstrap";
 
 // core components
@@ -44,6 +50,9 @@ import BlockFestContact1 from "views/IndexSections/BlockFestContact1.jsx";
 //import { chartExample1 } from "variables/charts.js";
 import BlockFestFAQ from "views/IndexSections/BFFaq";
 import BlockFestFeatures from "views/IndexSections/BlockFestFeatures";
+import SponsorList from "views/IndexSections/SponsorList.jsx";
+import BlockFestBottom from "views/IndexSections/BlockFestBottom";
+
 
 class BlockFestHome extends React.Component {
   componentDidMount() {
@@ -563,7 +572,10 @@ class BlockFestHome extends React.Component {
             </Container>
           </section> */}
           <BlockFestTeam />
-            <BlockFestFAQ />
+         <BlockFestBottom /> 
+         
+          {/* <SponsorList /> */}
+            {/* <BlockFestFAQ /> */}
             <BlockFestContact1 />
 
 

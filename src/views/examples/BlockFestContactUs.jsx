@@ -15,7 +15,7 @@
 
 */
 import React from "react";
-// nodejs library that concatenates classes
+
 import classnames from "classnames";
 // react plugin used to create google maps
 import {
@@ -27,6 +27,13 @@ import {
 
 // reactstrap components
 import {
+  Badge,
+  Input,
+  Container,
+  Row,
+  Col,
+  Carousel,
+  CarouselItem,
   Button,
   Card,
   CardHeader,
@@ -35,14 +42,22 @@ import {
   Label,
   FormGroup,
   Form,
-  Input,
   InputGroupAddon,
   InputGroupText,
-  InputGroup,
-  Container,
-  Row,
-  Col
+  InputGroup
 } from "reactstrap";
+
+// core components
+import ColorNavbar from "components/Navbars/ColorNavbar.jsx";
+import DemoFooter from "components/Footers/DemoFooter.jsx";
+import BFNavbar from "components/Navbars/BFNavbar.jsx";
+//import DemoFooter from "components/Footers/DemoFooter.jsx";
+import BlockFooter from "components/Footers/BlockFooter.jsx";
+import BlockFestContact2 from "views/IndexSections/BlockFestContact2.jsx";
+
+
+
+
 
 // core components
 const ContactUsMap = withScriptjs(
@@ -301,11 +316,12 @@ const ContactUsMap = withScriptjs(
   ))
 );
 
-class BlockFestContact2 extends React.Component {
+class BlockFestContactUs extends React.Component {
   state = {};
   render() {
     return (
       <>
+      <BFNavbar />
         <div className="cd-section" id="contactus">
           {/* ********* CONTACT US 1 ********* */}
           <div
@@ -676,9 +692,10 @@ class BlockFestContact2 extends React.Component {
           </div>
           {/* ********* END CONTACT US 4 ********* */}
         </div>{" "}
+        <BlockFooter />
       </>
     );
   }
 }
 
-export default BlockFestContact2;
+export default BlockFestContactUs;

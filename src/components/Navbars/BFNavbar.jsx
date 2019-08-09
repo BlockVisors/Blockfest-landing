@@ -123,7 +123,7 @@ class ColorNavbar extends React.Component {
               </NavItem>
             
             <NavItem>
-                <NavLink tag={Link} to="/www.medium.com/blockcirclesquare">
+                <NavLink href="https://medium.com/blockfest-group">
                   Medium
                 </NavLink>
               </NavItem>
@@ -312,7 +312,7 @@ class ColorNavbar extends React.Component {
                     size="sm"
                     target="_blank"
                   >
-                    <p>Register</p>
+                    <p>Register As A Hacker</p>
                   </Button>
                 </NavItem>
                 <NavItem>
