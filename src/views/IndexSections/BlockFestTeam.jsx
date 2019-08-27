@@ -287,7 +287,7 @@ class Teams extends React.Component {
                 <Col lg="3" md="3" sm="6">
                   <Card className="card-profile">
                     <div className="card-image">
-                      <h4 className="title">Dameon Green</h4>
+                      <h4 className="title">Anthony Albertorio</h4>
                       <UncontrolledDropdown>
                         <DropdownToggle
                           aria-expanded={false}
@@ -330,7 +330,7 @@ class Teams extends React.Component {
                     </div>
                     <CardBody>
                       <hr className="line-primary" />
-                      <h3 className="job-title">Consultant/Innovator</h3>
+                      <h3 className="job-title">NYC BlockDev Leader</h3>
                       <Table className="tablesorter" responsive>
                         <tbody>
                           <tr>
@@ -437,7 +437,7 @@ class Teams extends React.Component {
                 <Col md="3">
                   <Card className="card-profile">
                     <div className="card-image">
-                      <h4 className="title">Anthony Albertorio</h4>
+                      <h4 className="title">Dameon Green</h4>
                       <UncontrolledDropdown>
                         <DropdownToggle
                           aria-expanded={false}
@@ -480,7 +480,7 @@ class Teams extends React.Component {
                     </div>
                     <CardBody>
                       <hr className="line-primary" />
-                      <h3 className="job-title">Meetup Maestro</h3>
+                      <h3 className="job-title">Consultant Visionary</h3>
                       <Table className="tablesorter" responsive>
                         <tbody>
                           <tr>
@@ -555,7 +555,7 @@ class Teams extends React.Component {
                     </div>
                     <CardBody>
                       <hr className="line-primary" />
-                      <h3 className="job-title">Blockchain Developer</h3>
+                      <h3 className="job-title">Blockchain Dev</h3>
                       <Table className="tablesorter" responsive>
                         <tbody>
                           <tr>

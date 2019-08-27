@@ -19,6 +19,9 @@ import React from "react";
 import { Line } from "react-chartjs-2";
 import classnames from "classnames";
 
+//import Firebase from "firebase";
+//import firebase from  "./firebaseConfig";
+
 // reactstrap components
 import {
   Button,
@@ -575,7 +578,7 @@ class BlockFestHome extends React.Component {
          <BlockFestBottom /> 
          
           {/* <SponsorList /> */}
-            {/* <BlockFestFAQ /> */}
+             <BlockFestFAQ />
             <BlockFestContact1 />
 
 

@@ -57,7 +57,8 @@ import BlockFestPartnersPage from "views/examples/BlockFestPartnersPage.jsx";
 import BlockFestContactUs from "views/examples/BlockFestContactUs.jsx";
 
 
-
+//import Firebase from "firebase";
+//import firebase from  "./firebaseConfig";
 
 ReactDOM.render(
   <BrowserRouter>

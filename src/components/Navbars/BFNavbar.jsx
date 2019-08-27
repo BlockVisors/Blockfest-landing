@@ -16,7 +16,7 @@
 */
 import React from "react";
 import { Link } from "react-router-dom";
-import { logo } from "../../assets/img/blockfestsvg.png"
+//import { logo } from "../../assets/img/blockfestsvg.png"
 // reactstrap components
 import {
   Button,
